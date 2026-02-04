@@ -1,0 +1,31 @@
+{
+  "name": "biblioteca-front-spa",
+  "version": "1.0.0",
+  "description": "Front-End SPA em React para a Biblioteca",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": [
+    "react",
+    "spa",
+    "biblioteca"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^7.1.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "style-loader": "^4.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-react": "^7.28.5",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.103.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.2"
+  }
+}
